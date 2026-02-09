@@ -1,0 +1,49 @@
+/* li styles commented */
+/*
+li{
+   list-style-type:none;
+}
+*/
+
+body{
+   font-family: Arial;
+   margin:20px;
+}
+
+nav{
+   display:inline-block;
+   width:80%;
+}
+
+nav img{
+   width:10%;
+}
+
+a{
+   text-decoration:none;
+   margin-right:10px;
+}
+
+.grid{
+   display:grid;
+   grid-template-columns:40% 40%;
+   justify-content:center;
+   align-items:center;
+   row-gap:20px;
+}
+
+.grid img{
+   width:100%;
+}
+
+.flex{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+   gap:15px;
+}
+
+.flex div{
+   background:#ddd;
+   padding:20px;
+}
